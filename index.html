@@ -3,50 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soowigs E-commerce</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>SOOWIGS - E-commerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #d4af37;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .product-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .product-card img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+        .product-info {
+            padding: 10px;
+        }
+        footer {
+            background-color: #d4af37;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <header id="hero">
-        <h1>Welcome to Soowigs!</h1>
-        <p>Your one-stop shop for luxurious wigs.</p>
-        <a href="#featured-products" class="btn">Shop Now</a>
+    <header>
+        <h1>Welcome to SOOWIGS</h1>
+        <p>Your number one source for quality wigs</p>
     </header>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>At Soowigs, we believe that everyone deserves to look and feel their best. Our high-quality wigs are designed for comfort and style, ensuring that you find the perfect fit for any occasion.</p>
+    <section class="hero">
+        <h2>Find Your Perfect Look</h2>
     </section>
-
-    <section id="featured-products">
-        <h2>Featured Products</h2>
+    <section class="product-gallery">
         <div class="product-card">
-            <h3>Luxury Lace Front Wig</h3>
-            <p>$299.99</p>
+            <img src="wig1.jpg" alt="Wig 1">
+            <div class="product-info">
+                <h3>Wig Model 1</h3>
+                <p>Price: 90,000 FCFA</p>
+                <button>Add to Cart</button>
+            </div>
         </div>
         <div class="product-card">
-            <h3>Silky Straight Hair Wig</h3>
-            <p>$249.99</p>
+            <img src="wig2.jpg" alt="Wig 2">
+            <div class="product-info">
+                <h3>Wig Model 2</h3>
+                <p>Price: 100,000 FCFA</p>
+                <button>Add to Cart</button>
+            </div>
         </div>
         <div class="product-card">
-            <h3>Curly Bob Wig</h3>
-            <p>$199.99</p>
+            <img src="wig3.jpg" alt="Wig 3">
+            <div class="product-info">
+                <h3>Wig Model 3</h3>
+                <p>Price: 200,000 FCFA</p>
+                <button>Add to Cart</button>
+            </div>
         </div>
+        <!-- Add more product cards as needed -->
     </section>
-
-    <section id="testimonials">
-        <h2>Testimonials</h2>
-        <blockquote>"I love my Soowigs wig! It looks so natural and is super comfortable to wear." - Jane D.</blockquote>
-        <blockquote>"The customer service was amazing, and my wig arrived quickly!" - Sarah L.</blockquote>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions? Reach out to us at <a href="mailto:support@soowigs.com">support@soowigs.com</a>.</p>
-    </section>
-
     <footer>
-        <p>&copy; 2026 Soowigs. All rights reserved.</p>
+        <h4>Contact Us</h4>
+        <p>Phone: +221 78 445 49 75</p>
+        <p>Instagram: <a href="https://www.instagram.com/soowigs" style="color: white;">@soowigs</a></p>
+        <p>Location: Dakar SICAP Foire near Koromack Faye</p>
+        <h4>Payment Methods</h4>
+        <p>Wave, Orange Money, Bank Transfer, Cash</p>
     </footer>
 </body>
 </html>
